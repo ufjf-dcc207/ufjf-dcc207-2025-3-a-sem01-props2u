@@ -1,0 +1,28 @@
+/* src/components/AlbumHeader.css */
+.album-header h2 {
+  margin-top: 0; /* Remove a margem de cima do título do álbum */
+  font-size: 1.75rem; /* Título do álbum maior */
+}
+
+.album-header h3 {
+  font-size: 1rem;
+  font-weight: normal; /* Ano com peso de fonte normal */
+  color: #555; /* Cor cinza escuro */
+  margin-bottom: 1rem;
+}
+
+.album-header ul {
+  list-style-type: none; /* Remove as bolinhas da lista de estilos */
+  padding-left: 0;
+  display: flex; /* Coloca os estilos lado a lado */
+  flex-wrap: wrap; /* Permite que eles quebrem a linha se não couberem */
+  gap: 0.5rem; /* Espaçamento entre os estilos */
+  margin-bottom: 2rem; /* Espaço antes da tracklist */
+}
+
+.album-header li {
+  background-color: #e0e0e0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
