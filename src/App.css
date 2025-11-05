@@ -1,16 +1,13 @@
-
-
-/* Estilo geral para o container da aplicação */
 .app-container {
-  font-family: sans-serif; /* Uma fonte mais limpa */
-  max-width: 1200px; /* Limita a largura para não ficar muito esticado em telas grandes */
-  margin: 0 auto; /* Centraliza o container na página */
-  padding: 2rem; /* Adiciona um respiro nas laterais */
+  font-family: sans-serif; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 2rem; 
 }
 
-/* A grade que vai segurar nossos álbuns */
+
 .discografia-grid {
-  display: grid; /* Liga o modo Grid Layout */
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Mágica responsiva! */
-  gap: 2rem; /* Espaçamento entre os álbuns */
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+  gap: 2rem; 
 }
