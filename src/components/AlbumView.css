@@ -1,8 +1,7 @@
-/* src/components/AlbumView.css */
 .album-view {
-  border: 1px solid #ccc; /* Borda cinza claro */
-  border-radius: 8px; /* Cantos arredondados */
-  padding: 1.5rem; /* Espaçamento interno */
-  background-color: #f9f9f9; /* Um fundo levemente cinza para destacar */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  border: 1px solid #ccc; /*cria uma borda solida de 1px*/
+  border-radius: 8px; /*arredonda os cantos*/
+  padding: 1.5rem; /*espaço entre a borda e o conteudo*/
+  background-color: #f9f9f9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*adiciona uma sombra*/
 }

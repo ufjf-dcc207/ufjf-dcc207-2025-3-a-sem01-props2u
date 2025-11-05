@@ -1,26 +1,27 @@
-/* src/components/AlbumHeader.css */
+/*h2 e h3 servem pra ilustrar melhor a hierarquia*/
+
 .album-header h2 {
-  margin-top: 0; /* Remove a margem de cima do título do álbum */
-  font-size: 1.75rem; /* Título do álbum maior */
+  margin-top: 0; 
+  font-size: 1.75rem; 
 }
 
 .album-header h3 {
   font-size: 1rem;
-  font-weight: normal; /* Ano com peso de fonte normal */
-  color: #555; /* Cor cinza escuro */
+  font-weight: normal; 
+  color: #555; 
   margin-bottom: 1rem;
 }
 
 .album-header ul {
-  list-style-type: none; /* Remove as bolinhas da lista de estilos */
-  padding-left: 0;
-  display: flex; /* Coloca os estilos lado a lado */
-  flex-wrap: wrap; /* Permite que eles quebrem a linha se não couberem */
-  gap: 0.5rem; /* Espaçamento entre os estilos */
-  margin-bottom: 2rem; /* Espaço antes da tracklist */
+  list-style-type: none; /*remove os pontos padroes de uma lista*/
+  padding-left: 0; /*remove o recuo padrao de uma lista*/
+  display: flex;  /*alinha os itens em uma unica linha*/
+  flex-wrap: wrap; /*quebra pra linha de baixo se nao tiver espaco*/
+  gap: 0.5rem; 
+  margin-bottom: 2rem; 
 }
 
-.album-header li {
+.album-header li { /*cria um visual maneirinho de pilula*/
   background-color: #e0e0e0;
   padding: 0.25rem 0.75rem;
   border-radius: 12px;
