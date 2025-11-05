@@ -1,7 +1,16 @@
+// aqui ficam as informações brutas do projeto.
+// a interface é o que determina o que cada objeto precisa ter
+
+//artistas sao uma colecao de albums
+//albums sao uma colecao de musicas
+
+
+//menor componente, a musica. o 'atomo'. diz o que ela precisa ter.
 export interface Musica {
     titulo: string;
     id: number;
 }
+//diz o que o album precisa ter
 
 export interface Album {
     titulo: string;
@@ -11,11 +20,14 @@ export interface Album {
     id: number;
 }
 
+//diz o que o artista precisa ter
+
 export interface Artista {
     nome: string;
     estilos: string[];
 }
 
+//constante com a discografia inteira
 export const discografiaJPEGMAFIA: Album[] = [
   {
     id: 1,
