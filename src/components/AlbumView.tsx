@@ -2,7 +2,6 @@ import type { Album } from '../dados.ts';
 import { AlbumHeader } from './AlbumHeader.tsx';
 import { Tracklist } from './Tracklist.tsx';
 import './AlbumView.css';
-
 interface AlbumViewProps { 
     album: Album
 }
@@ -14,6 +13,7 @@ export function AlbumView({album}:AlbumViewProps) {
     <div className="album-view"> 
       <header>
         {// ele manda pra um profissional renderizar a header do album
+
             <AlbumHeader album={album}/>
         }
       </header>

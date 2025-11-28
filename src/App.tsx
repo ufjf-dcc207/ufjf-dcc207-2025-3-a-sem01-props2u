@@ -1,5 +1,7 @@
 import { AlbumView } from './components/AlbumView';
-import { discografiaJPEGMAFIA } from './dados';  
+import { discografiaJPEGMAFIA } from './dados'; 
+import { FotoArtista } from './FotoArtista';
+
 import "./App.css";
 
 // o inicio da cascata
@@ -9,6 +11,7 @@ function App() {
   return (
     <div className="app-container">
       <h1>Discografia de JPEGMAFIA</h1>
+      <FotoArtista/>
       <section className="discografia-grid">
       {/*o .map() é uma funcao anonima, tipo o lambda do python
       pra cada album da discografia, a gente cria um componente albumview*/}
