@@ -1,4 +1,3 @@
-/*h2 e h3 servem pra ilustrar melhor a hierarquia*/
 
 .album-header h2 {
   margin-top: 0; 
@@ -13,15 +12,15 @@
 }
 
 .album-header ul {
-  list-style-type: none; /*remove os pontos padroes de uma lista*/
-  padding-left: 0; /*remove o recuo padrao de uma lista*/
-  display: flex;  /*alinha os itens em uma unica linha*/
-  flex-wrap: wrap; /*quebra pra linha de baixo se nao tiver espaco*/
+  list-style-type: none; 
+  padding-left: 0;
+  display: flex;  
+  flex-wrap: wrap;
   gap: 0.5rem; 
   margin-bottom: 2rem; 
 }
 
-.album-header li { /*cria um visual maneirinho de pilula*/
+.album-header li { 
   background-color: #e0e0e0;
   padding: 0.25rem 0.75rem;
   border-radius: 12px;

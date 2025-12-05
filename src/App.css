@@ -1,14 +1,18 @@
 .app-container {
   font-family: sans-serif; 
-  max-width: 1200px; /*pra impedir o site de esticar infinitamente em monitores maiores*/
-  margin: 0 auto;  /*coloca 0 de margem e pede pra calcular automaticamente, centralizando o container*/
-  padding: 2rem; /*cria um espaço entre a borda do container e o conteudo*/
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; 
+  margin: 0 auto;  
+  padding: 2rem; 
 }
 
-
+.foto-artista-grid{
+  display: grid;
+  margin: 0 auto;
+  gap: 2rem;
+}
 .discografia-grid {
-  display: grid; /*coloca no layout de grade, que deixa o container organizar os filhos em linhas e colunas*/
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /*cria quantas colunas couberem. 
-  cada coluna tem minimo de 350px e ocupa 1fr de espaço disponivel*/
+  display: flex;
   gap: 2rem; 
 }
