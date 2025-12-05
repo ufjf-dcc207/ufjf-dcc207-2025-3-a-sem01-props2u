@@ -1,7 +1,7 @@
 .album-view {
-  border: 1px solid #ccc; /*cria uma borda solida de 1px*/
-  border-radius: 8px; /*arredonda os cantos*/
-  padding: 1.5rem; /*espaço entre a borda e o conteudo*/
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  padding: 1.5rem;
   background-color: #f9f9f9; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*adiciona uma sombra*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
