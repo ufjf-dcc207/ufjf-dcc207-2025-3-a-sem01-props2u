@@ -7,12 +7,23 @@
   padding: 2rem; 
 }
 
+.botao-album {
+    background: transparent;
+    display:grid;
+    border: none;
+    font-size:0;  
+}
+
+
+
 .foto-artista-grid{
   display: grid;
   margin: 0 auto;
   gap: 2rem;
 }
+
 .discografia-grid {
   display: flex;
   gap: 2rem; 
 }
+

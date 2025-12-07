@@ -2,7 +2,7 @@ import { AlbumView } from './components/AlbumView';
 import { AlbumSelecionado } from './components/AlbumSelecionado';
 import { useState } from 'react';
 import { discografiaJPEGMAFIA } from './dados'; 
-import { FotoArtista } from './FotoArtista';
+import { FotoArtista } from './components/FotoArtista.tsx';
 import type { Album } from './dados.ts';
 
 import "./App.css";
@@ -20,17 +20,14 @@ function App() {
       <section className="discografia-grid">
 
       {discografiaJPEGMAFIA.map((album) => (
-        <button onClick={() =>{
+        <button className="botao-album"onClick={() =>{
           album && setAlbumClicado(album);
         }}>
         <AlbumView key={album.id} album={album}/>
         </button>
         ))}
-        <section className="album-selecionado">
-        {albumClicado && <AlbumSelecionado album={albumClicado}/>}
-        </section>
-        
       </section>
+      {albumClicado && <AlbumSelecionado album={albumClicado} fechar={() => {setAlbumClicado(null)}}/>}
     </div>
   );
 }
